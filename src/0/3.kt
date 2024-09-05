@@ -16,7 +16,7 @@ fun main(args: Array<String>) {
 // repeat를 사용해 a 즉, 몇번 반복을 할 것인지 명시해주고 print로 s1을 찍어주면 a가 입력된 값 만큼 s1의 문자열이 반복되어 나온다.
 // 그리고 println을 사용하면 문자열이 개행이 되지만 예시 답에서는 개행이 되지 않은 문자열이 반복되므로 print로 해주어야한다.
 
-fun main(args: Array<String>) {
+fun other(args: Array<String>) {
     val input = readLine()!!.split(' ')
     val s1 = input[0]
     val a = input[1]!!.toInt()
