@@ -6,7 +6,7 @@ fun main(args: Array<String>) {
     val (a, b) = readLine()!!.split(' ').map(String::toInt)
     val result = a + b
     println("$a + $b = $result")
-} // 나의 답변
+} // 나의 풀이
 
 // a + b를 한 값에 대한 변수를 만들고 println으로 찍어냈다.
 
@@ -22,7 +22,7 @@ fun other(args: Array<String>) {
     if(isRangeValueWithA && isRangeValueWithB) {
         println("$a + $b = ${a+b}")
     }
-} // 다른 사람의 답변
+} // 다른 사람의 풀이
 
 // 문제에서 보면 범위를 정해주었기 때문에 const val MAX(MIN)으로 범위값을 정해준다.
 // const val은 컴파일 시간에 결정이 되며 변경이 불가하다.

@@ -11,7 +11,7 @@ fun main(args: Array<String>) {
     repeat(a) {
         print(s1)
     }
-} // 나의 답변
+} // 나의 풀이
 
 // repeat를 사용해 a 즉, 몇번 반복을 할 것인지 명시해주고 print로 s1을 찍어주면 a가 입력된 값 만큼 s1의 문자열이 반복되어 나온다.
 // 그리고 println을 사용하면 문자열이 개행이 되지만 예시 답에서는 개행이 되지 않은 문자열이 반복되므로 print로 해주어야한다.
@@ -23,7 +23,7 @@ fun other(args: Array<String>) {
     for (i in 0 until a) {
         print(s1)
     }
-} // 다른 사람의 답변
+} // 다른 사람의 풀이
 
 // for문을 사용한 방법 또한 존재한다.
 // for문에서 until을 사용하게 되는 오른쪽 숫자 보다 1작은 범위를 반복한다.

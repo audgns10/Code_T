@@ -11,7 +11,7 @@ fun main(args: Array<String>) {
             s1[it].lowercase()
         else
             s1[it].uppercase() } )
-} // 나의 답변
+} // 나의 풀이
 
 // indices를 사용하여 글자의 길이 즉, 인덱스로 반환을 해주어 0부터 시작해 -1을 한 값이 변환이 된다. -> [0 .. ?]
 // joinToString을 사용하므로써 변환된 문자들이 하나의 문자열로 합쳐져 나오게 된다.
@@ -23,7 +23,7 @@ fun other(args: Array<String>) {
     s1.map { if (it.isLowerCase()) it.uppercase() else it.lowercase() }
         .joinToString("")
         .also { println(it) }
-} // 다른 사람의 답변
+} // 다른 사람의 풀이
 
 // map을 사용해 문자열의 각 문자에 대해 변환을 적용하고, 새로운 리스트로 반환을 한다.
 // 나의 답변과 비슷한 조건식을 거친다.

@@ -5,8 +5,8 @@
 fun main(args: Array<String>) {
     val s1 = readLine()!!
     println(s1)
-} // 나의 답
+} // 나의 풀이
 
 fun other(args: Array<String>) {
     readLine()?.let(::println)
-} // 다른 사람의 답변
+} // 다른 사람의 풀이

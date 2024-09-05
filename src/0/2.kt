@@ -6,9 +6,9 @@ fun main(args: Array<String>) {
     val (a, b) = readLine()!!.split(' ').map(String::toInt)
     println("a = ${a}")
     print("b = ${b}")
-} // 나의 답변
+} // 나의 풀이
 
 fun other(args: Array<String>) {
     val (a, b) = readLine()!!.split(' ').map(String::toInt)
     print("a = $a\nb = $b")
-} // 다른 사람의 답변
+} // 다른 사람의 풀이
